@@ -85,7 +85,7 @@ class FeatureExtractor(object):
         if features_to_use in ('logfbank'):
             X_features = self.get_logfbank(X)
         if features_to_use in ('mfcc'):
-            X_features = self.get_mfcc(X)
+            X_features = self.get_mfcc(X,26)
         if features_to_use in ('fbank'):
             X_features = self.get_fbank(X)
         if features_to_use in ('melspectrogram'):
