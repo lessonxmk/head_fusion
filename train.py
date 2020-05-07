@@ -30,8 +30,8 @@ def setup_seed(seed):
 # setup_seed(999999)
 setup_seed(987654)
 
-attention_head = 2
-attention_hidden = 392
+attention_head = 4
+attention_hidden = 64
 
 import features
 import model
